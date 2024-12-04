@@ -1,0 +1,156 @@
+/* Reset default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0c4dd;
+}
+
+/* Main container */
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header styling */
+.App-header {
+  background-color: #282c34;
+  color: rgb(235, 57, 143);
+  padding: 20px 0;
+}
+
+h1 {
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+  background: rgb(240, 197, 231);
+  border: 1px solid #e8c2e4;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(247, 245, 245, 0.1);
+}
+
+li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #eec5e2;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Form styling */
+form {
+  margin: 20px auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(236, 200, 229);
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e6bbdb;
+  box-shadow: 0px 4px 6px rgba(252, 251, 251, 0.1);
+}
+
+/* Input fields */
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #e3a6cc;
+  border-radius: 4px;
+}
+
+input:focus {
+  border-color: #e81aaa;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(250, 251, 251, 0.5);
+}
+
+/* Buttons */
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e231b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ea58c1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  ul, form {
+      max-width: 90%;
+  }
+
+  input, button {
+      font-size: 14px;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  background-color: #c89cbb;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #da98c4;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .pagination {
+      flex-direction: column;
+  }
+
+  ul {
+      padding: 0;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  button {
+      margin-bottom: 5px;
+  }
+}
