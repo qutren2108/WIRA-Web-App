@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .rankings-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar */
+  .search-container {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-container input {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Summary Cards */
+  .summary-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Rankings Chart */
+  .rankings-chart {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Rankings Table */
+  .rankings-table {
+    margin-top: 20px;
+    overflow-x: auto;
+  }
+  
+  .rankings-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rankings-table th,
+  .rankings-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .rankings-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .rankings-table td {
+    background-color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .summary-cards {
+      flex-direction: column;
+    }
+  
+    .card {
+      margin-bottom: 10px;
+    }
+  
+    .search-container input {
+      width: 100%;
+    }
+  }
+  

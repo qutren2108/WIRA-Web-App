@@ -1,0 +1,37 @@
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #030504; /* Espresso color */
+  padding: 15px 0;
+  border-bottom: 1px solid #6e1313; /* Crimson Tide color */
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #f4b3b3; /* Rose Quartz color */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.navbar a:hover {
+  color: #6e1313; /* Crimson Tide color */
+  background-color: #440000; /* Red Mahogany */
+  border-radius: 5px;
+}
+
+/* Page Content */
+.content {
+  padding: 20px;
+  background-color: #0f0000; /* Espresso color */
+  min-height: 100vh;
+  color: #f4b3b3; /* Rose Quartz color */
+  font-family: Arial, sans-serif;
+}
